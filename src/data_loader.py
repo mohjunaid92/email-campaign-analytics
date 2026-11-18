@@ -2,6 +2,7 @@
 Data Loader & SQLite Connection Manager
 Project: Email Campaign Effectiveness Analysis
 Author: Moh Junaid (Roll: 250320140094), MCA 2nd Year (DA), ABES
+Target Org: Nexura Tech Solutions Pvt. Ltd., Noida
 """
 
 import os
@@ -38,6 +39,12 @@ def load_analytics_view(db_path: str = DB_PATH) -> pd.DataFrame:
     if "campaign_send_date" in df.columns:
         df["campaign_send_date"] = pd.to_datetime(df["campaign_send_date"], errors="coerce")
     return df
+
+def load_joined_data(db_path: str = DB_PATH) -> pd.DataFrame:
+    """
+    Alias for load_analytics_view to support standard naming across Build Plan specifications.
+    """
+    return load_analytics_view(db_path)
 
 def get_table_counts(db_path: str = DB_PATH) -> dict:
     """
