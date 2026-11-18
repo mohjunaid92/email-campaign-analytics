@@ -1,0 +1,26 @@
+campaign_id,campaign_name,campaign_category,subject_line,subject_char_length,has_personalization,has_urgency,campaign_variant,send_date,send_day_name,send_hour,budget_cost
+1,Q1 Product Innovations & Feature Roundup,Product Update,Discover What's New in Nexura Cloud v4.2,40,0,0,None,2026-01-05,Monday,16,850.0
+2,Mastering Enterprise Multi-Cloud Security,Webinar Invite,Join Live: Defending B2B SaaS Against Modern Cyber Threats,58,0,1,None,2026-01-14,Wednesday,9,1200.0
+3,The B2B Tech Leader - March Edition,Newsletter,March Tech Insights: AI Trends Reshaping Enterprise Workflows,61,0,0,None,2026-01-23,Friday,9,450.0
+4,Spring Cloud Optimization Sprint - 25% Off,Promotional Discount,Exclusive Offer: Accelerate Your Cloud Migration Today!,55,1,1,None,2026-02-01,Sunday,16,1500.0
+5,Kubernetes Cost Optimization Framework,Product Update,Cut Container Costs by 35%: New DevOps Module Released,54,0,0,None,2026-02-10,Tuesday,11,950.0
+6,C-Suite Breakfast RoundTable: FinTech Scale,Webinar Invite,Executive Invite: High-Volume Transaction Security in 2026,58,1,1,None,2026-02-19,Thursday,10,1800.0
+7,The B2B Tech Leader - April Edition,Newsletter,April Digest: Why Data Observability Outpaces Monitoring,56,0,0,None,2026-02-28,Saturday,10,450.0
+8,Special Q2 Onboarding Acceleration Discount,Promotional Discount,Limited Time: Save 20% on Nexura Managed Support,48,0,1,None,2026-03-09,Monday,10,1350.0
+9,Zero Trust Architecture Whitepaper Launch,Product Update,Download: The 2026 Enterprise Zero-Trust Implementation Playbook,64,1,0,None,2026-03-18,Wednesday,16,1100.0
+10,AI-Driven APM & Log Telemetry Deep Dive,Webinar Invite,Hands-on Workshop: Eliminating MTTR with Predictive Telemetry,61,0,0,None,2026-03-27,Friday,9,1400.0
+11,The B2B Tech Leader - May Edition,Newsletter,May Insights: Navigating Compliance in Multi-Tenant Environments,64,0,0,None,2026-04-05,Sunday,16,450.0
+12,Mid-Year Cloud Infrastructure Modernization,Promotional Discount,Mid-Year Boost: Double Your Dedicated Server Bandwidth Free,59,0,1,None,2026-04-14,Tuesday,16,1600.0
+13,Microservices Observability Suite Release,Product Update,Announcing Nexura Trace: Full-Stack Microservices Telemetry,59,1,0,None,2026-04-23,Thursday,15,1250.0
+14,Enterprise DevOps Automation Summit,Webinar Invite,"Free Virtual Summit: Scaling CI/CD Pipelines to 1,000 Deploys/Day",65,0,0,None,2026-05-02,Saturday,9,2000.0
+15,The B2B Tech Leader - June Edition,Newsletter,June Review: Real-World Lessons from Hybrid Cloud Transformations,65,0,0,None,2026-05-11,Monday,15,450.0
+16,Flash Sale: 48-Hour Cloud Security Audit,Promotional Discount,Urgent: Claim Your Complimentary Infrastructure Threat Assessment,65,0,1,None,2026-05-20,Wednesday,14,1750.0
+17,Next-Gen API Gateway & Mesh Architecture,Product Update,Upgrade Alert: Sub-Millisecond Latency with Nexura Mesh,55,0,0,None,2026-05-29,Friday,9,1050.0
+18,Demystifying SOC2 & ISO27001 Readiness,Webinar Invite,Interactive Webinar: Streamlining Enterprise Audit Compliance,61,1,0,None,2026-06-07,Sunday,9,1300.0
+19,The B2B Tech Leader - July Edition,Newsletter,July Brief: How Platform Engineering Is Replacing Traditional Ops,65,0,0,None,2026-06-16,Tuesday,9,450.0
+20,Q3 Cloud Migration Incentive Program,Promotional Discount,"Switch to Nexura: Get $5,000 in Migration Cloud Credits",55,1,1,None,2026-06-25,Thursday,10,2200.0
+21,Serverless Database Auto-Scaler v2.0,Product Update,Meet Auto-Scaler v2.0: Instant Zero-to-Peak Provisioning,56,0,0,None,2026-07-04,Saturday,10,900.0
+22,Architecting High-Availability Systems,Webinar Invite,Live Masterclass: Designing 99.999% SLA Cloud Topologies,56,0,0,None,2026-07-13,Monday,15,1500.0
+23,The B2B Tech Leader - August Edition,Newsletter,August Perspectives: The Future of Sovereign Cloud in India,59,0,0,None,2026-07-22,Wednesday,15,450.0
+24,Q3 Cloud DevOps Suite Release [Variant A],Product Update,Upgrade to DevOps Suite: Modern Tools for Fast Delivery,55,0,0,A,2026-07-31,Friday,9,1200.0
+25,Q3 Cloud DevOps Suite Release [Variant B],Product Update,"Hi {{first_name}}, Boost Your Team's Deploy Velocity by 40%",59,1,1,B,2026-08-09,Sunday,15,1200.0

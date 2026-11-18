@@ -1,0 +1,151 @@
+recipient_id,email_address,recipient_domain,domain_type,account_tier,industry,country,created_at
+1,rahul.chatterjee63@yahoo.co.in,yahoo.co.in,Public Webmail,Mid-Market,FinTech,India,2025-09-23 17:00:00
+2,aditya.kapoor30@tcs-technologies.in,tcs-technologies.in,Corporate,Startup,E-Commerce,India,2025-08-27 12:00:00
+3,vikram.nair23@delhivery-freight.com,delhivery-freight.com,Corporate,SMB,SaaS,India,2025-09-06 09:00:00
+4,kavita.sengupta87@policybazaar-group.in,policybazaar-group.in,Corporate,Mid-Market,Healthcare,India,2025-06-12 15:00:00
+5,swati.iyer20@freshworks-saas.com,freshworks-saas.com,Corporate,Enterprise,IT Services,India,2025-08-15 18:00:00
+6,meera.sengupta83@policybazaar-group.in,policybazaar-group.in,Corporate,Enterprise,FinTech,India,2025-11-28 09:00:00
+7,priya.rao47@swiggy-delivery.in,swiggy-delivery.in,Corporate,Enterprise,SaaS,India,2025-07-30 09:00:00
+8,siddharth.kumar91@inmobi-media.com,inmobi-media.com,Corporate,Startup,Healthcare,India,2025-07-12 13:00:00
+9,kavita.nair99@zerodha-trading.com,zerodha-trading.com,Corporate,SMB,SaaS,India,2025-11-03 18:00:00
+10,neha.bhatia30@swiggy-delivery.in,swiggy-delivery.in,Corporate,SMB,E-Commerce,India,2025-09-06 12:00:00
+11,deepika.menon38@yahoo.co.in,yahoo.co.in,Public Webmail,Enterprise,Healthcare,India,2025-06-15 11:00:00
+12,suresh.patel61@delhivery-freight.com,delhivery-freight.com,Corporate,Startup,Healthcare,India,2025-06-17 11:00:00
+13,deepika.malhotra37@delhivery-freight.com,delhivery-freight.com,Corporate,SMB,E-Commerce,India,2025-09-10 18:00:00
+14,rajesh.singh27@zerodha-trading.com,zerodha-trading.com,Corporate,Enterprise,FinTech,India,2025-10-22 16:00:00
+15,aditya.mishra84@postman-api.io,postman-api.io,Corporate,Enterprise,E-Commerce,India,2025-09-01 11:00:00
+16,vikram.agarwal21@techcorp-old.in,techcorp-old.in,Corporate,Enterprise,SaaS,India,2025-06-29 10:00:00
+17,manoj.gupta86@postman-api.io,postman-api.io,Corporate,Mid-Market,SaaS,India,2025-09-07 14:00:00
+18,meera.choudhury42@gmail.com,gmail.com,Public Webmail,Mid-Market,IT Services,India,2025-06-03 18:00:00
+19,isha.iyer44@yahoo.co.in,yahoo.co.in,Public Webmail,Mid-Market,Healthcare,India,2025-06-29 12:00:00
+20,divya.gupta10@inmobi-media.com,inmobi-media.com,Corporate,Mid-Market,Healthcare,India,2025-10-07 10:00:00
+21,gaurav.iyer91@razorpay-solutions.in,razorpay-solutions.in,Corporate,SMB,IT Services,India,2025-11-03 11:00:00
+22,vikram.bose79@paytm-payments.in,paytm-payments.in,Corporate,Enterprise,IT Services,India,2025-06-01 17:00:00
+23,amit.pillai24@tcs-technologies.in,tcs-technologies.in,Corporate,Mid-Market,Healthcare,India,2025-08-18 11:00:00
+24,priya.joshi20@wipro-systems.com,wipro-systems.com,Corporate,Mid-Market,E-Commerce,India,2025-06-18 16:00:00
+25,naveen.singh94@techmahindra-cloud.com,techmahindra-cloud.com,Corporate,Mid-Market,E-Commerce,India,2025-10-19 10:00:00
+26,aditya.agarwal37@postman-api.io,postman-api.io,Corporate,SMB,IT Services,India,2025-11-24 11:00:00
+27,arjun.reddy95@freshworks-saas.com,freshworks-saas.com,Corporate,Enterprise,Healthcare,India,2025-09-21 16:00:00
+28,rajesh.iyer38@swiggy-delivery.in,swiggy-delivery.in,Corporate,Mid-Market,SaaS,India,2025-08-26 08:00:00
+29,karan.bhatia85@swiggy-delivery.in,swiggy-delivery.in,Corporate,Mid-Market,FinTech,India,2025-06-02 09:00:00
+30,arjun.menon39@infosys-global.com,infosys-global.com,Corporate,Enterprise,SaaS,India,2025-06-09 13:00:00
+31,rohan.agarwal45@swiggy-delivery.in,swiggy-delivery.in,Corporate,SMB,E-Commerce,India,2025-07-25 16:00:00
+32,vikram.mishra41@techcorp-old.in,techcorp-old.in,Corporate,Enterprise,E-Commerce,India,2025-09-13 11:00:00
+33,ananya.iyer55@postman-api.io,postman-api.io,Corporate,Enterprise,E-Commerce,India,2025-09-14 15:00:00
+34,sunita.mishra96@infosys-global.com,infosys-global.com,Corporate,Startup,SaaS,India,2025-06-16 14:00:00
+35,isha.mehta41@hcl-enterprise.in,hcl-enterprise.in,Corporate,Startup,FinTech,India,2025-07-19 16:00:00
+36,rajesh.singh33@postman-api.io,postman-api.io,Corporate,SMB,Healthcare,India,2025-09-27 11:00:00
+37,sunita.verma80@inmobi-media.com,inmobi-media.com,Corporate,Mid-Market,SaaS,India,2025-06-13 18:00:00
+38,swati.trivedi21@tcs-technologies.in,tcs-technologies.in,Corporate,Enterprise,FinTech,India,2025-07-13 14:00:00
+39,ritu.pillai61@zomato-logistics.com,zomato-logistics.com,Corporate,SMB,SaaS,India,2025-07-13 14:00:00
+40,aarav.chawla68@zerodha-trading.com,zerodha-trading.com,Corporate,Mid-Market,Healthcare,India,2025-09-17 16:00:00
+41,shweta.chatterjee29@techcorp-old.in,techcorp-old.in,Corporate,Enterprise,FinTech,India,2025-08-15 11:00:00
+42,priya.malhotra17@yahoo.co.in,yahoo.co.in,Public Webmail,Mid-Market,Healthcare,India,2025-06-15 08:00:00
+43,karan.pillai77@gmail.com,gmail.com,Public Webmail,Enterprise,FinTech,India,2025-06-15 16:00:00
+44,rohan.sengupta18@paytm-payments.in,paytm-payments.in,Corporate,Startup,IT Services,India,2025-06-18 18:00:00
+45,sunita.joshi25@freshworks-saas.com,freshworks-saas.com,Corporate,Mid-Market,IT Services,India,2025-08-03 17:00:00
+46,meera.patel63@wipro-systems.com,wipro-systems.com,Corporate,SMB,IT Services,India,2025-10-23 16:00:00
+47,amit.kumar95@zomato-logistics.com,zomato-logistics.com,Corporate,Mid-Market,Healthcare,India,2025-08-01 12:00:00
+48,siddharth.singh68@razorpay-solutions.in,razorpay-solutions.in,Corporate,Mid-Market,Healthcare,India,2025-06-19 08:00:00
+49,rajesh.saxena19@hcl-enterprise.in,hcl-enterprise.in,Corporate,Mid-Market,IT Services,India,2025-07-25 16:00:00
+50,aditya.singh18@policybazaar-group.in,policybazaar-group.in,Corporate,Enterprise,FinTech,India,2025-09-03 12:00:00
+51,neha.choudhury48@yahoo.co.in,yahoo.co.in,Public Webmail,Startup,IT Services,India,2025-11-15 16:00:00
+52,aarav.rao48@yahoo.co.in,yahoo.co.in,Public Webmail,SMB,SaaS,India,2025-07-05 12:00:00
+53,ananya.iyer29@yahoo.co.in,yahoo.co.in,Public Webmail,Startup,Healthcare,India,2025-08-12 17:00:00
+54,rahul.chatterjee36@delhivery-freight.com,delhivery-freight.com,Corporate,Startup,Healthcare,India,2025-10-08 15:00:00
+55,aditya.sengupta21@infosys-global.com,infosys-global.com,Corporate,Mid-Market,E-Commerce,India,2025-08-10 08:00:00
+56,aarav.mehta91@techmahindra-cloud.com,techmahindra-cloud.com,Corporate,Startup,Healthcare,India,2025-07-12 15:00:00
+57,swati.chatterjee81@postman-api.io,postman-api.io,Corporate,Enterprise,SaaS,India,2025-06-29 09:00:00
+58,harsh.chatterjee79@techmahindra-cloud.com,techmahindra-cloud.com,Corporate,Enterprise,SaaS,India,2025-09-03 17:00:00
+59,swati.singh26@postman-api.io,postman-api.io,Corporate,Enterprise,SaaS,India,2025-08-18 13:00:00
+60,harsh.kapoor55@infosys-global.com,infosys-global.com,Corporate,Mid-Market,FinTech,India,2025-11-22 11:00:00
+61,shweta.iyer81@policybazaar-group.in,policybazaar-group.in,Corporate,Mid-Market,E-Commerce,India,2025-11-06 10:00:00
+62,deepika.joshi32@paytm-payments.in,paytm-payments.in,Corporate,Mid-Market,E-Commerce,India,2025-06-07 10:00:00
+63,isha.mehta95@postman-api.io,postman-api.io,Corporate,SMB,FinTech,India,2025-08-08 10:00:00
+64,tanvi.chatterjee58@hcl-enterprise.in,hcl-enterprise.in,Corporate,Mid-Market,SaaS,India,2025-09-29 11:00:00
+65,rahul.trivedi54@inmobi-media.com,inmobi-media.com,Corporate,Mid-Market,Healthcare,India,2025-07-29 11:00:00
+66,aarav.rao61@zomato-logistics.com,zomato-logistics.com,Corporate,Mid-Market,Healthcare,India,2025-08-11 09:00:00
+67,naveen.kumar92@policybazaar-group.in,policybazaar-group.in,Corporate,Enterprise,IT Services,India,2025-09-11 18:00:00
+68,suresh.bhatia13@delhivery-freight.com,delhivery-freight.com,Corporate,SMB,SaaS,India,2025-08-06 10:00:00
+69,karan.kumar23@infosys-global.com,infosys-global.com,Corporate,Enterprise,IT Services,India,2025-09-20 13:00:00
+70,isha.kapoor65@delhivery-freight.com,delhivery-freight.com,Corporate,Startup,IT Services,India,2025-10-09 09:00:00
+71,siddharth.malhotra42@zomato-logistics.com,zomato-logistics.com,Corporate,SMB,SaaS,India,2025-09-20 08:00:00
+72,gaurav.kapoor97@yahoo.co.in,yahoo.co.in,Public Webmail,Enterprise,FinTech,India,2025-09-02 14:00:00
+73,rohan.rao89@delhivery-freight.com,delhivery-freight.com,Corporate,Enterprise,Healthcare,India,2025-11-17 09:00:00
+74,isha.reddy49@gmail.com,gmail.com,Public Webmail,SMB,E-Commerce,India,2025-08-23 14:00:00
+75,arjun.reddy26@yahoo.co.in,yahoo.co.in,Public Webmail,SMB,FinTech,India,2025-09-16 18:00:00
+76,siddharth.rao88@paytm-payments.in,paytm-payments.in,Corporate,SMB,IT Services,India,2025-08-17 14:00:00
+77,swati.trivedi48@tcs-technologies.in,tcs-technologies.in,Corporate,SMB,Healthcare,India,2025-07-24 14:00:00
+78,tanvi.malhotra69@delhivery-freight.com,delhivery-freight.com,Corporate,Enterprise,E-Commerce,India,2025-09-22 18:00:00
+79,rahul.agarwal31@techcorp-old.in,techcorp-old.in,Corporate,Mid-Market,SaaS,India,2025-08-12 16:00:00
+80,shweta.menon21@delhivery-freight.com,delhivery-freight.com,Corporate,Enterprise,FinTech,India,2025-11-20 12:00:00
+81,sneha.kapoor28@zomato-logistics.com,zomato-logistics.com,Corporate,Startup,SaaS,India,2025-06-12 11:00:00
+82,ritu.saxena68@wipro-systems.com,wipro-systems.com,Corporate,SMB,E-Commerce,India,2025-11-09 17:00:00
+83,rahul.chatterjee73@freshworks-saas.com,freshworks-saas.com,Corporate,Mid-Market,E-Commerce,India,2025-08-02 10:00:00
+84,manoj.chatterjee23@tcs-technologies.in,tcs-technologies.in,Corporate,Enterprise,E-Commerce,India,2025-07-27 10:00:00
+85,tanvi.chatterjee69@gmail.com,gmail.com,Public Webmail,Mid-Market,SaaS,India,2025-10-21 11:00:00
+86,deepika.sengupta68@hcl-enterprise.in,hcl-enterprise.in,Corporate,Mid-Market,FinTech,India,2025-09-27 18:00:00
+87,gaurav.bhatia66@delhivery-freight.com,delhivery-freight.com,Corporate,SMB,IT Services,India,2025-10-08 14:00:00
+88,suresh.bhatia30@inmobi-media.com,inmobi-media.com,Corporate,SMB,E-Commerce,India,2025-09-24 12:00:00
+89,naveen.joshi76@zerodha-trading.com,zerodha-trading.com,Corporate,Startup,E-Commerce,India,2025-11-08 11:00:00
+90,aditya.choudhury46@wipro-systems.com,wipro-systems.com,Corporate,Mid-Market,FinTech,India,2025-08-09 13:00:00
+91,amit.bhatia27@wipro-systems.com,wipro-systems.com,Corporate,Enterprise,FinTech,India,2025-07-30 14:00:00
+92,arjun.singh18@zomato-logistics.com,zomato-logistics.com,Corporate,SMB,E-Commerce,India,2025-09-13 13:00:00
+93,swati.choudhury17@postman-api.io,postman-api.io,Corporate,SMB,FinTech,India,2025-09-16 14:00:00
+94,harsh.pandey83@tcs-technologies.in,tcs-technologies.in,Corporate,Mid-Market,E-Commerce,India,2025-10-01 08:00:00
+95,kavita.reddy63@freshworks-saas.com,freshworks-saas.com,Corporate,SMB,IT Services,India,2025-10-18 17:00:00
+96,harsh.joshi38@techcorp-old.in,techcorp-old.in,Corporate,Mid-Market,Healthcare,India,2025-09-20 15:00:00
+97,aarav.chawla95@delhivery-freight.com,delhivery-freight.com,Corporate,Mid-Market,E-Commerce,India,2025-07-13 15:00:00
+98,deepika.singh13@yahoo.co.in,yahoo.co.in,Public Webmail,Mid-Market,E-Commerce,India,2025-10-30 17:00:00
+99,shweta.sharma92@wipro-systems.com,wipro-systems.com,Corporate,Enterprise,E-Commerce,India,2025-07-05 15:00:00
+100,neha.patel58@zerodha-trading.com,zerodha-trading.com,Corporate,Enterprise,Healthcare,India,2025-07-25 15:00:00
+101,amit.mehta45@freshworks-saas.com,freshworks-saas.com,Corporate,Enterprise,E-Commerce,India,2025-08-04 09:00:00
+102,ritu.sharma16@yahoo.co.in,yahoo.co.in,Public Webmail,SMB,Healthcare,India,2025-07-28 18:00:00
+103,rohan.pandey13@infosys-global.com,infosys-global.com,Corporate,Mid-Market,FinTech,India,2025-07-22 08:00:00
+104,meera.singh26@swiggy-delivery.in,swiggy-delivery.in,Corporate,Mid-Market,E-Commerce,India,2025-11-19 09:00:00
+105,karan.nair99@inmobi-media.com,inmobi-media.com,Corporate,Startup,Healthcare,India,2025-09-03 10:00:00
+106,meera.saxena30@hcl-enterprise.in,hcl-enterprise.in,Corporate,Enterprise,Healthcare,India,2025-06-28 17:00:00
+107,aarav.reddy60@freshworks-saas.com,freshworks-saas.com,Corporate,Mid-Market,FinTech,India,2025-06-20 17:00:00
+108,arjun.trivedi23@swiggy-delivery.in,swiggy-delivery.in,Corporate,SMB,Healthcare,India,2025-11-23 17:00:00
+109,tanvi.iyer54@infosys-global.com,infosys-global.com,Corporate,Enterprise,IT Services,India,2025-09-18 18:00:00
+110,kavita.verma92@gmail.com,gmail.com,Public Webmail,Enterprise,Healthcare,India,2025-06-04 14:00:00
+111,suresh.pillai65@hcl-enterprise.in,hcl-enterprise.in,Corporate,Mid-Market,Healthcare,India,2025-11-10 15:00:00
+112,arjun.singh32@postman-api.io,postman-api.io,Corporate,Enterprise,IT Services,India,2025-11-14 12:00:00
+113,meera.kapoor71@yahoo.co.in,yahoo.co.in,Public Webmail,Startup,E-Commerce,India,2025-09-20 17:00:00
+114,aditya.mehta21@swiggy-delivery.in,swiggy-delivery.in,Corporate,SMB,Healthcare,India,2025-09-24 11:00:00
+115,naveen.choudhury53@freshworks-saas.com,freshworks-saas.com,Corporate,SMB,SaaS,India,2025-10-05 13:00:00
+116,neha.pillai55@zomato-logistics.com,zomato-logistics.com,Corporate,Startup,Healthcare,India,2025-08-27 12:00:00
+117,harsh.saxena81@zerodha-trading.com,zerodha-trading.com,Corporate,SMB,SaaS,India,2025-10-11 11:00:00
+118,rohan.joshi72@postman-api.io,postman-api.io,Corporate,Enterprise,IT Services,India,2025-08-01 15:00:00
+119,manoj.chatterjee67@techcorp-old.in,techcorp-old.in,Corporate,Startup,SaaS,India,2025-06-24 12:00:00
+120,sneha.chawla49@swiggy-delivery.in,swiggy-delivery.in,Corporate,Mid-Market,IT Services,India,2025-09-03 15:00:00
+121,swati.agarwal64@policybazaar-group.in,policybazaar-group.in,Corporate,SMB,IT Services,India,2025-08-24 13:00:00
+122,arjun.choudhury49@zerodha-trading.com,zerodha-trading.com,Corporate,Startup,Healthcare,India,2025-07-30 09:00:00
+123,isha.nair25@delhivery-freight.com,delhivery-freight.com,Corporate,Mid-Market,IT Services,India,2025-11-24 10:00:00
+124,rahul.nair45@techcorp-old.in,techcorp-old.in,Corporate,Enterprise,IT Services,India,2025-10-13 17:00:00
+125,pooja.iyer47@zomato-logistics.com,zomato-logistics.com,Corporate,Enterprise,FinTech,India,2025-09-01 10:00:00
+126,pooja.sharma26@yahoo.co.in,yahoo.co.in,Public Webmail,Mid-Market,Healthcare,India,2025-06-12 08:00:00
+127,swati.reddy91@techmahindra-cloud.com,techmahindra-cloud.com,Corporate,SMB,E-Commerce,India,2025-06-27 08:00:00
+128,karan.reddy71@techcorp-old.in,techcorp-old.in,Corporate,Startup,E-Commerce,India,2025-08-27 10:00:00
+129,priya.kumar24@techcorp-old.in,techcorp-old.in,Corporate,Enterprise,SaaS,India,2025-09-11 15:00:00
+130,rohan.malhotra29@infosys-global.com,infosys-global.com,Corporate,Mid-Market,FinTech,India,2025-10-23 12:00:00
+131,rohan.joshi81@hcl-enterprise.in,hcl-enterprise.in,Corporate,Mid-Market,E-Commerce,India,2025-11-03 17:00:00
+132,tanvi.saxena76@swiggy-delivery.in,swiggy-delivery.in,Corporate,Enterprise,E-Commerce,India,2025-09-24 15:00:00
+133,pooja.sengupta49@postman-api.io,postman-api.io,Corporate,Enterprise,IT Services,India,2025-11-06 08:00:00
+134,meera.mishra36@hcl-enterprise.in,hcl-enterprise.in,Corporate,Mid-Market,FinTech,India,2025-08-07 18:00:00
+135,rohan.gupta32@swiggy-delivery.in,swiggy-delivery.in,Corporate,Startup,IT Services,India,2025-06-20 10:00:00
+136,aarav.deshmukh98@inmobi-media.com,inmobi-media.com,Corporate,Mid-Market,IT Services,India,2025-09-29 12:00:00
+137,priya.joshi46@razorpay-solutions.in,razorpay-solutions.in,Corporate,Mid-Market,E-Commerce,India,2025-06-19 18:00:00
+138,sneha.kumar64@zomato-logistics.com,zomato-logistics.com,Corporate,SMB,SaaS,India,2025-10-18 11:00:00
+139,manoj.singh28@zerodha-trading.com,zerodha-trading.com,Corporate,Mid-Market,SaaS,India,2025-06-16 10:00:00
+140,tanvi.reddy66@razorpay-solutions.in,razorpay-solutions.in,Corporate,Startup,SaaS,India,2025-09-28 12:00:00
+141,arjun.chawla74@zerodha-trading.com,zerodha-trading.com,Corporate,Startup,IT Services,India,2025-10-05 15:00:00
+142,rohan.saxena65@infosys-global.com,infosys-global.com,Corporate,Mid-Market,Healthcare,India,2025-11-02 12:00:00
+143,aarav.verma96@swiggy-delivery.in,swiggy-delivery.in,Corporate,Mid-Market,IT Services,India,2025-10-29 08:00:00
+144,naveen.rao83@zerodha-trading.com,zerodha-trading.com,Corporate,Mid-Market,SaaS,India,2025-07-15 15:00:00
+145,gaurav.menon45@inmobi-media.com,inmobi-media.com,Corporate,Mid-Market,FinTech,India,2025-10-28 14:00:00
+146,manoj.trivedi21@techcorp-old.in,techcorp-old.in,Corporate,Enterprise,E-Commerce,India,2025-08-29 14:00:00
+147,amit.mehta30@hcl-enterprise.in,hcl-enterprise.in,Corporate,SMB,Healthcare,India,2025-09-14 15:00:00
+148,pooja.rao80@freshworks-saas.com,freshworks-saas.com,Corporate,Mid-Market,SaaS,India,2025-09-25 09:00:00
+149,amit.kumar24@delhivery-freight.com,delhivery-freight.com,Corporate,Enterprise,E-Commerce,India,2025-10-10 08:00:00
+150,shweta.sengupta69@yahoo.co.in,yahoo.co.in,Public Webmail,Mid-Market,E-Commerce,India,2025-06-14 11:00:00
