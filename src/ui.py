@@ -41,6 +41,10 @@ def render_hero_header(title: str, subtitle: str, badge_text: str = "Enterprise 
     """
     components.html(html_code, height=95)
 
+def render_tailwind_header(title: str, subtitle: str, badge_text: str = "Enterprise Live"):
+    """Alias for render_hero_header matching BUILD-05 specifications."""
+    render_hero_header(title, subtitle, badge_text)
+
 def render_kpi_card(title: str, value: str, delta: str = None, status: str = "positive"):
     """
     Renders a modern executive metric card with status color pill and sub-text delta.
@@ -86,13 +90,28 @@ def render_kpi_card(title: str, value: str, delta: str = None, status: str = "po
     """
     components.html(html_code, height=110)
 
+def render_tailwind_kpi_card(title: str, value: str, change_pct: str = None, subtext: str = "vs benchmark", icon_name: str = "trend"):
+    """
+    Tailwind KPI card supporting explicit change percentage and subtext.
+    """
+    status = "positive"
+    if change_pct:
+        if str(change_pct).startswith("-"):
+            status = "negative"
+        elif str(change_pct).startswith("+") or str(change_pct).replace("%","").replace(".","").isdigit():
+            status = "positive"
+        else:
+            status = "neutral"
+    render_kpi_card(title=title, value=value, delta=change_pct, status=status)
+
 def render_insight_box(title: str, message: str, level: str = "info"):
     """
     Renders an analytical insight callout banner.
-    level: 'info', 'warning', 'success'
+    level: 'info', 'warning', 'success', 'tip'
     """
     palette = {
         "info": ("from-blue-50 to-indigo-50", "border-blue-300", "text-blue-900", "text-blue-700", "ℹ"),
+        "tip": ("from-emerald-50 to-teal-50", "border-emerald-300", "text-emerald-900", "text-emerald-700", "💡"),
         "warning": ("from-amber-50 to-yellow-50", "border-amber-300", "text-amber-900", "text-amber-700", "⚠"),
         "success": ("from-emerald-50 to-green-50", "border-emerald-300", "text-emerald-900", "text-emerald-700", "✓")
     }
@@ -109,14 +128,20 @@ def render_insight_box(title: str, message: str, level: str = "info"):
         </style>
     </head>
     <body>
-        <div class="p-4 bg-gradient-to-r {bg} rounded-xl border {bdr} font-sans shadow-xs flex items-start gap-3">
-            <span class="text-lg font-bold {h_col} mt-0.5">{icon}</span>
-            <div>
+        <div class="p-4 bg-gradient-to-r {bg} border-l-4 {bdr} rounded-r-xl shadow-sm font-sans">
+            <div class="flex items-center gap-2">
+                <span class="text-base font-bold">{icon}</span>
                 <h4 class="text-sm font-bold {h_col}">{title}</h4>
-                <p class="text-xs {p_col} mt-0.5 leading-relaxed">{message}</p>
             </div>
+            <p class="text-xs {p_col} mt-1 leading-relaxed">{message}</p>
         </div>
     </body>
     </html>
     """
-    components.html(html_code, height=85)
+    components.html(html_code, height=90)
+
+def render_insight_callout(text: str, kind: str = "tip"):
+    """Alias for render_insight_box matching BUILD-05 specifications."""
+    title_map = {"tip": "Actionable Marketing Recommendation", "warning": "Deliverability Risk Warning", "info": "Key Analytical Finding"}
+    title = title_map.get(kind, "Insight Callout")
+    render_insight_box(title, text, level=kind)
