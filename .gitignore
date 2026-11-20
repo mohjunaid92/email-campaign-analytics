@@ -8,3 +8,8 @@ __pycache__/
 htmlcov/
 .DS_Store
 *.log
+~$*.docx
+~$*.pptx
+~$*.xlsx
+scratch/
+.mpl_cache/
