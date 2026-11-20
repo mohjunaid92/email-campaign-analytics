@@ -5,10 +5,11 @@ Author: Moh Junaid (Roll: 250320140094), MCA 2nd Year (DA), ABES
 Target Org: Nexura Tech Solutions Pvt. Ltd., Noida
 """
 
+import os
 import streamlit as st
 import pandas as pd
 import datetime
-from src.data_loader import load_joined_data
+from src.data_loader import load_joined_data, standardize_campaign_dataframe, BASE_DIR
 from src.data_cleaner import clean_campaign_data
 from src.metrics import calculate_dataframe_kpis
 from src.ui import render_hero_header, render_kpi_card, render_insight_box
@@ -21,59 +22,113 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Load and clean dataset
-raw_df = load_joined_data()
-df_clean, audit_info = clean_campaign_data(raw_df)
-
-# Initialize Session State Filters
-if "filters_initialized" not in st.session_state:
-    st.session_state["filters_initialized"] = True
-    st.session_state["selected_campaign_types"] = list(df_clean["campaign_type"].dropna().unique())
-    st.session_state["selected_industries"] = list(df_clean["industry"].dropna().unique())
-    st.session_state["selected_sizes"] = list(df_clean["company_size"].dropna().unique())
-    st.session_state["selected_seniorities"] = list(df_clean["job_seniority_level"].dropna().unique())
-
-# Sidebar Filter Hub
+# Sidebar Filter & Ingestion Hub
 with st.sidebar:
     st.markdown("### 🏢 Nexura Tech Solutions")
     st.caption("B2B SaaS Email Marketing Intelligence | Noida, India")
     st.markdown("---")
-    
+
+    # Ingestion Option: Upload Custom Data
+    st.markdown("#### 📂 Ingest Custom Campaign Data")
+    uploaded_file = st.file_uploader(
+        "Upload Campaign CSV or Excel",
+        type=["csv", "xlsx", "xls"],
+        help="Upload your own email marketing dataset to instantly calculate KPIs, conversion funnels, and benchmarks."
+    )
+
+    template_path = os.path.join(BASE_DIR, "data", "vw_campaign_effectiveness_analytics.csv")
+    if os.path.exists(template_path):
+        with open(template_path, "rb") as f_temp:
+            st.download_button(
+                label="📥 Download Sample CSV Template",
+                data=f_temp.read(),
+                file_name="nexura_sample_campaign_data.csv",
+                mime="text/csv",
+                use_container_width=True
+            )
+
+    st.markdown("---")
+
+# Determine Data Source (Uploaded File vs Default Database)
+if uploaded_file is not None:
+    try:
+        if uploaded_file.name.endswith((".xlsx", ".xls")):
+            raw_upload = pd.read_excel(uploaded_file)
+        else:
+            raw_upload = pd.read_csv(uploaded_file)
+        standardized_df = standardize_campaign_dataframe(raw_upload)
+        df_clean, audit_info = clean_campaign_data(standardized_df)
+        raw_df = standardized_df
+        st.session_state["is_custom_dataset"] = True
+        st.session_state["dataset_source_name"] = uploaded_file.name
+    except Exception as e:
+        st.sidebar.error(f"Error parsing uploaded file: {e}")
+        raw_df = load_joined_data()
+        df_clean, audit_info = clean_campaign_data(raw_df)
+        st.session_state["is_custom_dataset"] = False
+        st.session_state["dataset_source_name"] = "Default SQLite Database"
+else:
+    raw_df = load_joined_data()
+    df_clean, audit_info = clean_campaign_data(raw_df)
+    st.session_state["is_custom_dataset"] = False
+    st.session_state["dataset_source_name"] = "Default SQLite Database"
+
+# Store active dataframes in session state for child pages
+st.session_state["raw_df"] = raw_df
+st.session_state["audit_info"] = audit_info
+
+# Initialize Session State Filters
+all_campaign_types = sorted(list(df_clean["campaign_type"].dropna().unique())) if "campaign_type" in df_clean.columns else []
+all_industries = sorted(list(df_clean["industry"].dropna().unique())) if "industry" in df_clean.columns else []
+all_sizes = sorted(list(df_clean["company_size"].dropna().unique())) if "company_size" in df_clean.columns else []
+all_seniorities = sorted(list(df_clean["job_seniority_level"].dropna().unique())) if "job_seniority_level" in df_clean.columns else []
+
+if "filters_initialized" not in st.session_state or st.session_state.get("last_loaded_dataset") != st.session_state["dataset_source_name"]:
+    st.session_state["filters_initialized"] = True
+    st.session_state["last_loaded_dataset"] = st.session_state["dataset_source_name"]
+    st.session_state["selected_campaign_types"] = all_campaign_types
+    st.session_state["selected_industries"] = all_industries
+    st.session_state["selected_sizes"] = all_sizes
+    st.session_state["selected_seniorities"] = all_seniorities
+
+# Sidebar Filter Hub Controls
+with st.sidebar:
+    if st.session_state.get("is_custom_dataset", False):
+        st.success(f"🟢 **Custom Data Active:** `{st.session_state['dataset_source_name']}` ({len(df_clean):,} records)")
+    else:
+        st.info(f"📊 **Active:** {st.session_state['dataset_source_name']} (375 records)")
+
     st.markdown("#### 🎯 Global Dynamic Filters")
-    
+
     # Filter 1: Campaign Type
-    all_campaign_types = sorted(list(df_clean["campaign_type"].dropna().unique()))
     selected_campaign_types = st.multiselect(
         "Campaign Type",
         options=all_campaign_types,
-        default=st.session_state["selected_campaign_types"]
+        default=[t for t in st.session_state.get("selected_campaign_types", all_campaign_types) if t in all_campaign_types]
     )
     st.session_state["selected_campaign_types"] = selected_campaign_types
 
     # Filter 2: Industry
-    all_industries = sorted(list(df_clean["industry"].dropna().unique()))
     selected_industries = st.multiselect(
         "Recipient Industry",
         options=all_industries,
-        default=st.session_state["selected_industries"]
+        default=[i for i in st.session_state.get("selected_industries", all_industries) if i in all_industries]
     )
     st.session_state["selected_industries"] = selected_industries
 
     # Filter 3: Company Size
-    all_sizes = sorted(list(df_clean["company_size"].dropna().unique()))
     selected_sizes = st.multiselect(
         "Company Size",
         options=all_sizes,
-        default=st.session_state["selected_sizes"]
+        default=[s for s in st.session_state.get("selected_sizes", all_sizes) if s in all_sizes]
     )
     st.session_state["selected_sizes"] = selected_sizes
 
     # Filter 4: Seniority
-    all_seniorities = sorted(list(df_clean["job_seniority_level"].dropna().unique()))
     selected_seniorities = st.multiselect(
         "Job Seniority",
         options=all_seniorities,
-        default=st.session_state["selected_seniorities"]
+        default=[sn for sn in st.session_state.get("selected_seniorities", all_seniorities) if sn in all_seniorities]
     )
     st.session_state["selected_seniorities"] = selected_seniorities
 
@@ -85,17 +140,17 @@ with st.sidebar:
         st.session_state["selected_seniorities"] = all_seniorities
         st.rerun()
 
-    st.caption("Filters apply across all analytical pages via `st.session_state`.")
+    st.caption("Filters dynamically update all 8 analytical pages.")
 
 # Apply filters to current view
 filtered_df = df_clean.copy()
-if selected_campaign_types:
+if selected_campaign_types and "campaign_type" in filtered_df.columns:
     filtered_df = filtered_df[filtered_df["campaign_type"].isin(selected_campaign_types)]
-if selected_industries:
+if selected_industries and "industry" in filtered_df.columns:
     filtered_df = filtered_df[filtered_df["industry"].isin(selected_industries)]
-if selected_sizes:
+if selected_sizes and "company_size" in filtered_df.columns:
     filtered_df = filtered_df[filtered_df["company_size"].isin(selected_sizes)]
-if selected_seniorities:
+if selected_seniorities and "job_seniority_level" in filtered_df.columns:
     filtered_df = filtered_df[filtered_df["job_seniority_level"].isin(selected_seniorities)]
 
 # Store active filtered dataframe in session state for child pages
@@ -107,6 +162,9 @@ render_hero_header(
     subtitle="Enterprise Performance Cockpit | Attribution, Deliverability & A/B Statistical Inference",
     badge_text="Nexura Tech Solutions • Live"
 )
+
+if st.session_state.get("is_custom_dataset", False):
+    st.success(f"📂 **Custom Dataset Active:** Currently evaluating `{st.session_state.get('dataset_source_name')}` with **{len(df_clean):,}** clean records. All KPI cards, charts, and 8 navigation pages reflect your uploaded data.")
 
 st.markdown("### 📊 Enterprise Marketing KPI Snapshot")
 kpis = calculate_dataframe_kpis(filtered_df)
