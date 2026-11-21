@@ -1,7 +1,7 @@
 """
 Marketing KPI Calculations & Financial Attribution Engine
 Project: Email Campaign Effectiveness Analysis
-Author: Moh Junaid (Roll: 250320140094), MCA 2nd Year (DA), ABES
+Author: Moh Junaid (Roll: 2500320140094), MCA 2nd Year (DA), ABES
 Target Org: Nexura Tech Solutions Pvt. Ltd., Noida
 """
 

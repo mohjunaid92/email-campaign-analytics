@@ -1,7 +1,7 @@
 """
 Screen 04: Temporal Trends & Send-Time Optimization (UI-04)
 Project: Email Campaign Effectiveness Analysis
-Author: Moh Junaid (Roll: 250320140094), MCA 2nd Year (DA), ABES
+Author: Moh Junaid (Roll: 2500320140094), MCA 2nd Year (DA), ABES
 Target Org: Nexura Tech Solutions Pvt. Ltd., Noida
 """
 

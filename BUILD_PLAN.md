@@ -1,9 +1,9 @@
 # Master Build Plan: Email Campaign Effectiveness Analysis
-**Project Code:** ECEA-2024-NEXURA  
+**Project Code:** P081  
 **Target Enterprise:** Nexura Tech Solutions Pvt. Ltd., Noida (500 Employees, B2B SaaS/Services)  
 **Academic Institution:** ABES Engineering College, Ghaziabad | Department of Computer Applications  
 **Course:** MCA 2nd Year — Data Analytics Specialization  
-**Author / Candidate:** Moh Junaid | University Roll No: 250320140094  
+**Author / Candidate:** Moh Junaid | University Roll No: 2500320140094  
 **Project Mentor:** Mr. Dinesh  
 **Document Revision:** Version 1.0 (Production Blueprint for Step 15)  
 **Status:** Approved & Ready for Autonomous / Pair-Programming Execution  
@@ -219,7 +219,7 @@ email_campaign_analytics/
 - **Files Created / Modified:** `pages/08_About.py`, `tests/test_*.py`, `README.md`.
 - **Linked Stories & Features:** `US-15` | `F-13` | Project Governance.
 - **Exact AI Prompt:**
-  > "Create `pages/08_About.py` (UI-08) showing student name (Moh Junaid, 250320140094), college, mentor, target company (Nexura Tech Solutions), architecture diagram, and schema overview. Execute full pytest suite `python -m pytest tests -v` ensuring 12 of 12 tests pass. Write a comprehensive `README.md` containing project introduction, architecture diagram, installation commands, page guide, and viva defense notes."
+  > "Create `pages/08_About.py` (UI-08) showing student name (Moh Junaid, 2500320140094), college, mentor, target company (Nexura Tech Solutions), architecture diagram, and schema overview. Execute full pytest suite `python -m pytest tests -v` ensuring 12 of 12 tests pass. Write a comprehensive `README.md` containing project introduction, architecture diagram, installation commands, page guide, and viva defense notes."
 - **How to Check:** Run `python -m pytest tests -v`. Ensure 100% test pass rate in < 3.0 seconds.
 - **Tests That Must Pass:** All tests (`TC-T-01` through `TC-T-12`), `TC-F-13` (About Screen Integrity).
 

@@ -1,7 +1,7 @@
 """
 Technical Tests: KPI Formulas & Statistical Models (TC-T-06 to TC-T-10)
 Project: Email Campaign Effectiveness Analysis
-Author: Moh Junaid (Roll: 250320140094), MCA 2nd Year (DA), ABES
+Author: Moh Junaid (Roll: 2500320140094), MCA 2nd Year (DA), ABES
 """
 
 import pytest

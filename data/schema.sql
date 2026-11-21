@@ -1,6 +1,6 @@
 -- ====================================================================
 -- SQLite 3 DDL Schema: Email Campaign Effectiveness Analysis Platform
--- Author: Moh Junaid (Roll: 250320140094), MCA 2nd Year (DA), ABES
+-- Author: Moh Junaid (Roll: 2500320140094), MCA 2nd Year (DA), ABES
 -- Target Database: data/app.db
 -- ====================================================================
 

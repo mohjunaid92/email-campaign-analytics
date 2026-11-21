@@ -1,7 +1,7 @@
 """
 Screen 08: Academic Project Attribution & Technical Architecture (UI-08)
 Project: Email Campaign Effectiveness Analysis
-Author: Moh Junaid (Roll: 250320140094), MCA 2nd Year (DA), ABES
+Author: Moh Junaid (Roll: 2500320140094), MCA 2nd Year (DA), ABES
 Target Org: Nexura Tech Solutions Pvt. Ltd., Noida
 """
 
@@ -26,7 +26,8 @@ with col_acad1:
     with st.container(border=True):
         st.markdown("#### 👤 Student Investigator")
         st.write("**Name:** Moh Junaid")
-        st.write("**University Roll No:** 250320140094")
+        st.write("**University Roll No:** 2500320140094")
+        st.write("**Batch ID:** ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01")
         st.write("**Degree:** Master of Computer Applications (MCA) — 2nd Year")
         st.write("**Specialization:** Data Analytics (DA)")
         st.write("**Institution:** ABES Engineering College, Ghaziabad, Uttar Pradesh")
@@ -34,11 +35,11 @@ with col_acad1:
 with col_acad2:
     with st.container(border=True):
         st.markdown("#### 🏛️ Academic & Industry Context")
-        st.write("**Project Mentor:** Mr. Dinesh")
+        st.write("**Project ID:** P081")
+        st.write("**Project Mentor:** MR. DINESH (Data Analytics: Mr. Dinesh)")
         st.write("**Target Organisation:** Nexura Tech Solutions Pvt. Ltd.")
         st.write("**Location:** Sector 62, Noida, Uttar Pradesh, India")
         st.write("**Enterprise Profile:** 500 Employees | B2B SaaS & Digital Transformation")
-        st.write("**Project Code:** ECEA-2024-NEXURA")
 
 st.markdown("---")
 

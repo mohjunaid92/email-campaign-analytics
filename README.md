@@ -17,10 +17,13 @@ This platform transforms opaque marketing dispatches into actionable attribution
 
 - **🌐 Live Production Application:** [https://email-campaign-analytics-fce9uzyxn3arhsidpycbgp.streamlit.app/](https://email-campaign-analytics-fce9uzyxn3arhsidpycbgp.streamlit.app/)
 - **🐙 Public GitHub Repository:** [https://github.com/mohjunaid92/email-campaign-analytics](https://github.com/mohjunaid92/email-campaign-analytics)
-- **Investigator / Author:** Moh Junaid (University Roll No: `250320140094`)
+- **Investigator / Author:** Moh Junaid
+- **University Roll No:** `2500320140094`
+- **Batch ID:** `ABES_OND26 MCA 2ND YEAR_DATA ANALYTICS_BATCH 01`
+- **Project ID:** `P081`
+- **Project Mentor:** MR. DINESH (Data Analytics: Mr. Dinesh)
 - **Institution:** ABES Engineering College, Ghaziabad, Uttar Pradesh
 - **Degree:** Master of Computer Applications (MCA 2nd Year) — Data Analytics Specialization
-- **Project Mentor:** Mr. Dinesh
 - **Target Organisation:** Nexura Tech Solutions Pvt. Ltd., Sector 62, Noida
 
 ---
@@ -127,7 +130,7 @@ email_campaign_analytics/
 ### 1. Clone & Set Up Environment
 ```bash
 # Clone the repository
-git clone https://github.com/250320140094-email-campaign-analytics.git
+git clone https://github.com/2500320140094-email-campaign-analytics.git
 cd email-campaign-analytics
 
 # Create and activate virtual environment
@@ -191,4 +194,4 @@ All 12 technical test cases (`TC-T-01` through `TC-T-12`) have been authored and
    *Tuesday and Thursday mornings between 10:00 AM and 11:30 AM produced a 38% higher open rate compared to off-peak periods.*
 
 ---
-*Developed by Moh Junaid (Roll No: 250320140094) | ABES Engineering College | 2024*
+*Developed by Moh Junaid (Roll No: 2500320140094) | ABES Engineering College | 2024*

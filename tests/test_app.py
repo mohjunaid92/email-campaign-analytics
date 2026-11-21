@@ -1,7 +1,7 @@
 """
 Technical Tests: Streamlit Application & Performance (TC-T-11 & TC-T-12)
 Project: Email Campaign Effectiveness Analysis
-Author: Moh Junaid (Roll: 250320140094), MCA 2nd Year (DA), ABES
+Author: Moh Junaid (Roll: 2500320140094), MCA 2nd Year (DA), ABES
 """
 
 import os

@@ -1,7 +1,7 @@
 """
 Technical Tests: Database Integrity & Data Loading (TC-T-01 to TC-T-05)
 Project: Email Campaign Effectiveness Analysis
-Author: Moh Junaid (Roll: 250320140094), MCA 2nd Year (DA), ABES
+Author: Moh Junaid (Roll: 2500320140094), MCA 2nd Year (DA), ABES
 """
 
 import os
