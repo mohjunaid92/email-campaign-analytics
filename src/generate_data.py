@@ -2,7 +2,7 @@
 Synthetic Data Generation Engine for Email Campaign Effectiveness Analysis
 Project: MCA 2nd Year Data Analytics, ABES Engineering College
 Author: Moh Junaid (Roll No: 250320140094)
-Mentor: Prof. Shilpa Tyagi
+Mentor: Mr. Dinesh
 Target Database: SQLite (data/app.db) + Excel + CSVs
 """
 

@@ -4,7 +4,7 @@
 **Academic Institution:** ABES Engineering College, Ghaziabad | Department of Computer Applications  
 **Course:** MCA 2nd Year — Data Analytics Specialization  
 **Author / Candidate:** Moh Junaid | University Roll No: 250320140094  
-**Project Mentor:** Prof. Shilpa Tyagi  
+**Project Mentor:** Mr. Dinesh  
 **Document Revision:** Version 1.0 (Production Blueprint for Step 15)  
 **Status:** Approved & Ready for Autonomous / Pair-Programming Execution  
 

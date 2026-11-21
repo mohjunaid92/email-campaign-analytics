@@ -20,7 +20,7 @@ This platform transforms opaque marketing dispatches into actionable attribution
 - **Investigator / Author:** Moh Junaid (University Roll No: `250320140094`)
 - **Institution:** ABES Engineering College, Ghaziabad, Uttar Pradesh
 - **Degree:** Master of Computer Applications (MCA 2nd Year) — Data Analytics Specialization
-- **Project Mentor:** Prof. Shilpa Tyagi
+- **Project Mentor:** Mr. Dinesh
 - **Target Organisation:** Nexura Tech Solutions Pvt. Ltd., Sector 62, Noida
 
 ---

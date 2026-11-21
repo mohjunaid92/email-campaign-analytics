@@ -34,7 +34,7 @@ with col_acad1:
 with col_acad2:
     with st.container(border=True):
         st.markdown("#### 🏛️ Academic & Industry Context")
-        st.write("**Project Mentor:** Prof. Shilpa Tyagi")
+        st.write("**Project Mentor:** Mr. Dinesh")
         st.write("**Target Organisation:** Nexura Tech Solutions Pvt. Ltd.")
         st.write("**Location:** Sector 62, Noida, Uttar Pradesh, India")
         st.write("**Enterprise Profile:** 500 Employees | B2B SaaS & Digital Transformation")
