@@ -42,6 +42,26 @@ with col_acad2:
 
 st.markdown("---")
 
+# Production Endpoints
+st.markdown("### 🌐 Live Production & Source Code Access")
+col_end1, col_end2 = st.columns(2)
+
+with col_end1:
+    with st.container(border=True):
+        st.markdown("#### ☁️ Streamlit Community Cloud")
+        st.markdown("**Live Application:** [email-campaign-analytics-fce9uzyxn3arhsidpycbgp.streamlit.app](https://email-campaign-analytics-fce9uzyxn3arhsidpycbgp.streamlit.app/)")
+        st.write("**Deployment Status:** Active & Public")
+        st.write("**Environment:** Python 3.12 / Streamlit Multi-Page")
+
+with col_end2:
+    with st.container(border=True):
+        st.markdown("#### 🐙 GitHub Repository")
+        st.markdown("**Public Repository:** [mohjunaid92/email-campaign-analytics](https://github.com/mohjunaid92/email-campaign-analytics)")
+        st.write("**Branch:** `main` (Verified clean working tree)")
+        st.write("**License:** Academic Capstone Open Access")
+
+st.markdown("---")
+
 # Tech Stack & Architecture
 st.markdown("### 🛠️ Production Technology Stack")
 col_tech1, col_tech2, col_tech3 = st.columns(3)

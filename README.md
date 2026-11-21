@@ -3,6 +3,7 @@
 
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.32+-red.svg)](https://streamlit.io/)
+[![Streamlit Cloud](https://img.shields.io/badge/Streamlit%20Cloud-Live%20Demo-FF4B4B?logo=streamlit&logoColor=white)](https://email-campaign-analytics-fce9uzyxn3arhsidpycbgp.streamlit.app/)
 [![SQLite 3](https://img.shields.io/badge/SQLite-Relational-green.svg)](https://www.sqlite.org/)
 [![pytest](https://img.shields.io/badge/pytest-100%25%20Passed-brightgreen.svg)](https://pytest.org/)
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-CDN%20Iframe-38B2AC.svg)](https://tailwindcss.com/)
@@ -14,6 +15,8 @@ The **Email Campaign Effectiveness Analysis (ECEA)** platform is a full-stack da
 
 This platform transforms opaque marketing dispatches into actionable attribution funnels, delivers real-time deliverability watchtowers to protect domain reputation, and empowers growth marketers with rigorous statistical hypothesis testing (two-proportion z-tests) to guide campaign investments.
 
+- **🌐 Live Production Application:** [https://email-campaign-analytics-fce9uzyxn3arhsidpycbgp.streamlit.app/](https://email-campaign-analytics-fce9uzyxn3arhsidpycbgp.streamlit.app/)
+- **🐙 Public GitHub Repository:** [https://github.com/mohjunaid92/email-campaign-analytics](https://github.com/mohjunaid92/email-campaign-analytics)
 - **Investigator / Author:** Moh Junaid (University Roll No: `250320140094`)
 - **Institution:** ABES Engineering College, Ghaziabad, Uttar Pradesh
 - **Degree:** Master of Computer Applications (MCA 2nd Year) — Data Analytics Specialization
